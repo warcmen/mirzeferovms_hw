@@ -1,0 +1,16 @@
+  280  git config --global user.name "Murad"
+  281  git config --global user.email murad0592@mail.ru
+  282  git init
+  283  echo "hello, world" >> hello.txt
+  284  git add .
+  285  git status
+  286  git commit -m "commit1"
+  287  git branch -M master
+  288  git remote add origin https://github.com/warcmen/mirzeferovms_hw.git
+  289  git push -u origin master
+  290* git
+  291  git add .
+  292  git commit -m "commit2"
+  293  git remote add origin https://github.com/warcmen/mirzeferovms_hw.git
+  294  git push -u origin master
+  295  history
